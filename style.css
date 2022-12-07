@@ -1,0 +1,339 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+font-face {
+    font-family: Ubuntu;
+    font-style: normal;
+}
+body {
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header_background {
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    /*height: 30px;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 1366px;
+    height: 58px;
+    position: relative;
+}
+.logo_mane {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    margin-left: 79px;
+    width: 157px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: white;
+}
+.logo_mane_link {
+    text-decoration: none;
+    color: white;
+}
+.logo_mane_link:hover {
+    color: darkgreen;
+}
+.navigation {
+    display: flex;
+    margin-top: 17px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 282px;
+}
+.navigation {
+    margin-top: 17px;
+    border-right: 1px solid grey;
+    padding-right: 25px;
+    height: 25px;
+    transition: color 0.5s,border-left-color .5s;
+
+}
+.navigation_svg_item {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 27px;
+    font-size: 20px;
+    height: 20px;
+}
+.navigation_svg_item:hover {
+    stroke: darkgreen;
+}
+.header_text {
+    display: flex;
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    right: 79px;
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.header_text_log_in_link,
+.header_text_sign_up_link {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+}
+.header__text__or {
+    margin-left: 3px;
+}
+.header_text_sign_up_link:hover {
+    color: darkgreen;
+}
+.header_text_log_in_link:hover {
+    color: darkgreen;
+}
+.container {
+    display: block;
+    background: white;
+    margin-top: 54px;
+    width: 444px;
+    height: 684px;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+    position: relative;
+}
+.text_form {
+    display: flex;
+}
+.green_square {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 29px;
+    background: #3CB878;
+}
+.text_form_sign_up {
+    margin-top: 31px;
+    display: flex;
+    width: 69px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #434343;
+}
+.link_text_form_log_in {
+    display: flex;
+    width: 39px;
+    height: 14px;
+    margin-top: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    color: #3CB878;
+    text-decoration: none;
+
+}
+.link_text_form_log_in:hover {
+    text-decoration: underline darkgreen;
+    color: darkgreen;
+}
+.button_fb_button_google {
+    display: flex;
+    margin-top: 25px;
+}
+.button_fb {
+    display: flex;
+    background: #305DB8;
+    width: 160px;
+    height: 48px;
+    border: none;
+    position: relative;
+    border-radius: 4px;
+    margin-left: 60px;
+}
+.button_fb:hover {
+    background: darkblue;
+}
+.fb_image {
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+.fb_image {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 27px;
+}
+.text_facebook {
+    position: absolute;
+    width: 71px;
+    height: 14px;
+    left: 67px;
+    top: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.button_google {
+    display: flex;
+    background: #DF4A32;
+    width: 160px;
+    height: 48px;
+    border: none;
+    position: relative;
+    border-radius: 4px;
+    margin-right: 60px;
+}
+.button_google:hover {
+    background: darkred;
+}
+.google_image {
+    border-right: 1px solid grey;
+    padding-right: 5px;
+}
+.text_google {
+    position: absolute;
+    width: 71px;
+    height: 14px;
+    left: 80px;
+    top: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.google_image {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    left: 27px;
+}
+.two_line_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    width: 15px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: grey;
+}
+.line {
+    display: flex;
+    margin-top: 6px;
+    width: 152px;
+    height: 2px;
+}
+
+.form_menu {
+    display: flex;
+    flex-flow: column;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form_item {
+    font-size: 16px;
+    margin: 15px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    width: 344px;
+    height: 44px
+
+
+}
+.form_item:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    border-radius: 4px;
+}
+
+.checkbox_text {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-right: 40px;
+    padding-right: 11px;
+}
+.checkbox_text_item {
+    margin-top: -17px;
+    margin-left: 15px;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+}
+.checkbox_text_link {
+    margin-left: 5px;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #3CB878;
+}
+.checkbox_text_link:hover {
+    color: darkgreen;
+    text-decoration: underline darkgreen;
+}
+.button_create_account {
+    width: 126px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.button_create_account {
+    width: 324px;
+    height: 46px;
+    background: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+    border: none;
+}
+.button_create_account:hover {
+    background: darkgreen;
+}
